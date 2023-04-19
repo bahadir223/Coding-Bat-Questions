@@ -1,0 +1,19 @@
+package CodingBat_Questions.String_Questions.Easy;
+
+public class HelloName {
+    /*
+    Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
+
+    helloName("Bob") → "Hello Bob!"
+    helloName("Alice") → "Hello Alice!"
+    helloName("X") → "Hello X!"
+     */
+
+    public static void main(String[] args) {
+        System.out.println(helloName("Bahadir"));
+
+    }
+    public static String helloName(String name) {
+        return "Hello " + name + "!";
+    }
+}
