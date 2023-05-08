@@ -26,6 +26,8 @@ public class Q09 {
                 .filter(n -> n % 10 != 5 && n % 10 != 6)
                 .collect(Collectors.toList());
 
+        //.
+
     }
 
 }
